@@ -10,6 +10,14 @@ body {
     width: 600px;
     background-color: #CB2140;
     border-radius: 30px;
+    margin-left: 400px;
+    box-shadow: 10px 6px 19px -5px rgba(0, 0, 0, 0.75);
+}
+
+img {
+    width: 212px;
+    height: 252px;
+    padding-top: 50px;
 }
 
 .product {
@@ -35,7 +43,7 @@ body {
     border-radius: 50px;
     display: inline;
     font-size: 10px;
-    font-weight: 100;
+    font-weight: 400;
     padding: 5px;
 }
 

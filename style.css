@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+body {
+    background-color: white;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.card {
+    width: 600px;
+    background-color: #CB2140;
+}
+
+.descrip_product {
+    width: 600px;
+    background-color: #0C1F2C;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tags {
+    width: 150px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 50px;
+    display: inline;
+    font-size: 10px;
+    font-weight: 100;
+    padding: 5px;
+}

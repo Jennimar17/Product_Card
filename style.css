@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 body {
     background-color: white;
     color: white;
@@ -9,23 +9,62 @@ body {
 .card {
     width: 600px;
     background-color: #CB2140;
+    border-radius: 30px;
 }
 
-.descrip_product {
+.product {
     width: 600px;
     background-color: #0C1F2C;
+    box-sizing: border-box;
+    padding: 0px 20px 30px 20px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.id_product {
     font-size: 40px;
     font-weight: 800;
+    padding-top: 30px;
+    margin-bottom: 10px;
 }
 
 .tags {
     width: 150px;
     height: 100px;
     background-color: transparent;
-    border: 1px solid red;
+    border: 1px solid #CB2140;
     border-radius: 50px;
     display: inline;
     font-size: 10px;
     font-weight: 100;
     padding: 5px;
+}
+
+.title_descript {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.all_descript {
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.buy_button {
+    width: 150px;
+    height: 40px;
+    background-color: #CB2140;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
 }
